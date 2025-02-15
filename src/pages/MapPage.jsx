@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header";
 import Map from "../components/Map/Map";
-import Footer from "../components/Footer/footer";
+import Footer from "../components/Footer/Footer";
 
 export function HomePage() {
     return (

@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header";
 import Bond from "../components/Bond/Bond";
-import Footer from "../components/Footer/footer";
+import Footer from "../components/Footer/Footer";
 
 export function BondPage() {
     return (

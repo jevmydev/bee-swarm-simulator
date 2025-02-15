@@ -5,7 +5,7 @@ import BlenderAd from "../components/Blender/BlenderAd";
 import News from "../components/News/News";
 import MapAd from "../components/Map/MapAd";
 import BondAd from "../components/Bond/BondAd";
-import Footer from "../components/Footer/footer";
+import Footer from "../components/Footer/Footer";
 
 export function HomePage() {
     return (
