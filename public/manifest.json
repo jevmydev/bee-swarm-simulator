@@ -1,0 +1,21 @@
+{
+    "name": "Bee Swarm Simulator - Fansite",
+    "short_name": "Bee Swarm Simulator - Fansite",
+    "description": "Descubre una fansite de Bee Swarm Simulator con recursos, guías e información del juego. Mejora tu nivel mientras aprendes los fundamentos de ser un apicultor. ¡Únete ahora y domina Bee Swarm Simulator!",
+    "keywords": ["Bee Swarm Simulator", "Bee Swarm", "Guides", "Resources", "Fansite"],
+    "icons": [
+        {
+            "src": "/favicon.webp",
+            "type": "image/webp",
+            "purpose": "any maskable",
+            "sizes": "362x326"
+        }
+    ],
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#0C0A0E",
+    "background_color": "#fafafa",
+    "id": "/index.html",
+    "start_url": "/index.html",
+    "homepage": "https://beeswarmsim.netlify.app"
+}

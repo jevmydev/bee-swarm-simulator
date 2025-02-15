@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Luckiest Guy";
+    src: url("/assets/fonts/luckiestguy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Highway Gothic";
+    src: url("/assets/fonts/highwaygothic.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link-shadow {
+        box-shadow: 0.1rem 0.1rem;
+    }
+
+    .link-hover {
+        transform: translate(-0.05rem, -0.05rem);
+        box-shadow: 0.15rem 0.15rem;
+    }
+
+    .link-active {
+        transform: translate(0.05rem, 0.05rem);
+        box-shadow: 0.05rem 0.05rem;
+    }
+
+    .leaflet-container {
+        background-color: rgb(240 240 240) !important;
+    }
+}
