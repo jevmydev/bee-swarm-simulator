@@ -1,4 +1,4 @@
-export const Link = ({ className, href, title, target = "_self", isActive, onClick, download, children }) => {
+export const Link = ({ className, href, title, target = "_self", isFullScreen, isActive, onClick, download, children }) => {
     const classIsUnderline = "group inline-block";
     const classIsActive = "flex bg-yellow-300 py-2 px-5 border-2 border-dark rounded-lg link-shadow hover:link-hover active:link-active";
 
@@ -6,7 +6,7 @@ export const Link = ({ className, href, title, target = "_self", isActive, onCli
 
     return (
         <a
-            className={`${className ?? linkClass} md:h-full cursor-pointer uppercase font-semibold text-dark tracking-wider`}
+            className={`${className ?? linkClass} ${isFullScreen ? "w-full" : "w-auto"} md:h-full cursor-pointer uppercase font-semibold text-dark tracking-wider`}
             href={href}
             title={title}
             target={target}

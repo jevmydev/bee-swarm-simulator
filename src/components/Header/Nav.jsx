@@ -9,7 +9,9 @@ export function Nav() {
                 {nav.map((link) => {
                     return (
                         <li key={link.id}>
-                            <Link {...link}>{link.title}</Link>
+                            <Link {...link} isFullScreen>
+                                {link.title}
+                            </Link>
                         </li>
                     );
                 })}
