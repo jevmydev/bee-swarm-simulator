@@ -44,7 +44,7 @@ export const DEFAULT_AMOUNT_BLENDER = 1;
 export const MAP_CONFIG = {
     className: "w-full h-full rounded-lg leaflet-container",
     center: [0, 0],
-    minZoom: 1,
+    minZoom: 0,
     zoom: 1,
     maxZoom: 4,
     maxBounds: [
