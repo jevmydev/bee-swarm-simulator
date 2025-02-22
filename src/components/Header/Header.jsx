@@ -28,7 +28,7 @@ export function Header() {
                         </div>
                     </div>
                 </div>
-                <div className={`${navMenu ? "block" : "hidden md:block"} fixed z-10 left-0 top-0 w-screen h-screen md:pt-8 md:static md:h-auto md:w-auto`}>
+                <div className={`${navMenu ? "block" : "hidden md:block"} fixed z-[9999] left-0 top-0 w-screen h-screen md:pt-8 md:static md:h-auto md:w-auto`}>
                     <Nav />
                 </div>
                 <NavResponsive toggleNavMenu={toggleNavMenu} />
