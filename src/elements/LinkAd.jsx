@@ -8,7 +8,7 @@ export const LinkAd = ({ title, href, imageUrl, textClass }) => {
                 <img className="object-contain w-24 md:w-48" src={imageUrl} alt={title} loading="lazy" decoding="async" />
             </div>
             <div>
-                <h2 className="font-title tracking-wider text-2xl sm:text-4xl lg:text-5xl text-nowrap">{title}</h2>
+                <h2 className="text-center font-title tracking-wider text-3xl sm:text-4xl lg:text-5xl">{title}</h2>
             </div>
         </Link>
     );
