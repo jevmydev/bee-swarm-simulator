@@ -13,7 +13,7 @@ export function News({ showAllNews = true }) {
                 <article className="bg-honey-amber rounded-lg p-4 flex flex-col gap-8">
                     {showAllNews && (
                         <nav>
-                            <h2 className="font-title tracking-wider text-2xl md:text-4xl">Fechas Actualizaciones</h2>
+                            <h2 className="font-title tracking-wider text-3xl md:text-4xl">Fechas Actualizaciones</h2>
                             <ul className="flex flex-wrap gap-2">
                                 {news.map(({ id, date }, i) => {
                                     return (
@@ -32,7 +32,7 @@ export function News({ showAllNews = true }) {
                         </nav>
                     )}
                     <header>
-                        <h2 className="font-title tracking-wider text-2xl md:text-4xl">{title}</h2>
+                        <h2 className="font-title tracking-wider text-3xl md:text-4xl">{title}</h2>
                         <h3>{date} (Novedad)</h3>
                     </header>
                     <section className="flex flex-col gap-2">
