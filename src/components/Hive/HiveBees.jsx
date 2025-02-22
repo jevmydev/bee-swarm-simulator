@@ -16,21 +16,21 @@ export function HiveBees({ bees, beeClassification, updateBeeClassification, hiv
     return (
         <div className="flex flex-col gap-8 w-full">
             <div className="flex flex-col gap-4 w-full">
-                <ul className="flex flex-wrap gap-4">
+                <ul className="flex flex-wrap gap-4 w-full">
                     {bees.map((bee) => {
                         const { classification } = bee;
                         const isFocus = classification === beeClassification.classification;
 
                         return (
-                            <li key={classification}>
-                                <Button isFocus={isFocus} onClick={() => updateBeeClassification(bee)}>
+                            <li className="w-full sm:w-auto" key={classification}>
+                                <Button isFocus={isFocus} isFullScreen onClick={() => updateBeeClassification(bee)}>
                                     {classification}
                                 </Button>
                             </li>
                         );
                     })}
                 </ul>
-                <ul className="flex gap-4">
+                <ul className="flex flex-wrap gap-4">
                     {mobs.map(({ id, name, imageUrl }) => (
                         <li key={id}>
                             <div draggable={true} onDragStart={handleDragStart}>
